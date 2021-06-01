@@ -1,0 +1,35 @@
+<?php 
+
+    // Ajouter la prise en charge des images mises en avant
+    add_theme_support( 'post-thumbnails' );
+
+    // Ajouter automatiquement le titre du site dans l'en-tête du site
+    add_theme_support( 'title-tag' );
+
+	// Affichée une fois par date différente
+	the_date();
+
+	// Affichée pour chaque article avec le format défini dans WordPress
+	the_time( get_option( 'date_format' ) );
+	
+	// Affichée pour chaque article, avec un format de date et heure personnalisé (ici : 02 Avril 2019 à 17:23)
+	the_time( 'j F Y à H:i' );
+
+    comments_number( 'no responses', 'one response', '% responses' );
+    comments_number( '0', '1', '%' );
+
+    // Ajouter les fichiers CSS, JS et dépendances Bootstrap et JQuery
+
+    function custom_scripts() {
+        wp_enqueue_style( 'bootstrap-style' , 'https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css' );
+        wp_enqueue_script( 'custom-script', 'https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js', array( 'jquery' ), false, true );
+        wp_enqueue_style( 'custom-style', get_template_directory_uri() . '/style.css?v='.time(), array(), false, 'all' );
+    }
+    add_action( 'wp_enqueue_scripts', 'custom_scripts' );
+
+    // Menus
+
+    register_nav_menus( array(
+        'main' => 'Menu Principal',
+        'footer' => 'Bas de page',
+    ) );

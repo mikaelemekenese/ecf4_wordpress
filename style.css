@@ -1,0 +1,22 @@
+/*
+Theme Name: ECF4 Mikaele Theme
+Theme URI: https://ecf4-mikaele.io
+Author: Mikaele MEKENESE
+Author URI: https://github.com/mikaelemekenese
+Description: Création de template pour l'ECF4
+Requires at least: WordPress 5.0
+Version: 1.0
+*/
+
+.menu {
+    position: fixed;
+    top: 0px;
+}
+
+.admin-bar .menu {
+	top: 32px; /* on prend en compte le décalage */
+}
+
+.header img {
+    width: 150px;
+}
