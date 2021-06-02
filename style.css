@@ -8,9 +8,30 @@ Requires at least: WordPress 5.0
 Version: 1.0
 */
 
-.menu {
-    position: fixed;
-    top: 0px;
+body {
+    margin: 0 10% 0 10%;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    padding-top: 1%;
+    margin: 1% 0 5% 0;
+}
+
+.menu { 
+    width: 100%;
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.menu > li {
+    padding-left: 50px;
+}
+
+.menu > li > a {
+    color: #E02148;
 }
 
 .admin-bar .menu {
@@ -19,4 +40,56 @@ Version: 1.0
 
 .header img {
     width: 150px;
+}
+
+aside {
+    width: 30%;
+}
+
+body > div.container-fluid > div > div.col-9 > div:nth-child(1) > img {
+    width: 881.53px;
+    height: auto;
+}
+
+body > div.container-fluid > div > div.col-9 > div:nth-child(1) {
+    position: relative;
+    margin-bottom: 50px;
+    grid-column: 1/4;
+}
+
+body > div.container-fluid > div > div.col-9 > div:nth-child(1) > h1 {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+body > div.container-fluid > div > div.col-9 > div:nth-child(1) > p {
+    position: absolute;
+    bottom: 10px;
+    left: 20px;
+    text-align: justify;
+    padding-right: 20px;
+}
+
+.attachment-post-thumbnail {
+    width: 290px;
+    height: auto;
+}
+
+body > div.container-fluid > div > .col-9 {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+}
+
+body > div.container-fluid > div > div.col-9 > div:not(:nth-child(1)) > h1  {
+    font-size: 1.5rem;
+}
+
+body > div.container-fluid > div > div.col-9 > div:not(:nth-child(1)) > h1  {
+    font-size: 1.5rem;
+}
+
+body > div.container-fluid > div > div.col-9 > div:nth-child(1) > h1 {
+    color: #E02148;
 }

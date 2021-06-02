@@ -17,7 +17,7 @@
                 array( 
                     'theme_location' => 'main', 
                     'container' => 'ul', // afin d'éviter d'avoir une div autour 
-                    'menu_class' => 'site__header__menu', // ma classe personnalisée 
+                    // 'menu_class' => 'site__header__menu', // ma classe personnalisée 
                 ) 
             ); ?>
     </header>
