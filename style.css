@@ -64,6 +64,7 @@ body > div.container-fluid > div > div.col-9 > div:nth-child(1) > h1 {
     position: absolute;
     top: 20px;
     left: 20px;
+    color: #E02148;
 }
 
 body > div.container-fluid > div > div.col-9 > div:nth-child(1) > p {
@@ -76,38 +77,36 @@ body > div.container-fluid > div > div.col-9 > div:nth-child(1) > p {
 }
 
 body > div.container-fluid > div > div.col-9 > div > img {
-    width: 290px;
-    height: 193px;
+    width: 100%;
+    height: 40%;
 }
 
 body > div.container-fluid > div > .col-9 {
     width: 100%;
     display: grid;
-    grid-template-columns: repeat(3, auto);
+    grid-template-columns: calc(100% * 1/3) calc(100% * 1/3) calc(100% * 1/3);
+    column-gap: 20px;
 }
 
 body > div.container-fluid > div > div.col-9 > div:not(:nth-child(1))  {
-    height: 400px;
+    height: 420px;
 }
 
 body > div.container-fluid > div > div.col-9 > div:not(:nth-child(1)) > h1  {
-    font-size: 1.4rem;
+    font-size: 1.3rem;
+    margin-top: 10px; 
 }
-
-body > div.container-fluid > div > div.col-9 > div:nth-child(1) > h1 {
-    color: #E02148;
-}
-
 
 /* Mise en forme de l'article dans la page d'article (ici single.php) */
 
 body > div.container-fluid > div > div.col-8 > .post > img {
-    width: 780.25px;
+    width: 100%;
     height: auto;
 }
 
 .post-categories {
     list-style: none;
+    text-align: end;
 }
 
 .post-categories > li {
@@ -115,11 +114,41 @@ body > div.container-fluid > div > div.col-8 > .post > img {
 }
 
 .post-categories > li:after {  
-    content: ", ";
+    content: "\a";
+    white-space: pre;
 }
 
 .post-categories > li:last-child:after {
     content: "";
+}
+
+.post__meta {
+    float: right;
+    text-align: justify;
+    justify-items: end;
+    width: 25%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 25% 75%;
+    margin-left: 50px;
+    margin-bottom: 30px;
+}
+
+body > div.container-fluid > div > div.col-8 > article > div.post__meta > span:nth-child(2) > p:nth-child(4) {
+    margin: 0;
+}
+
+.post__meta p {
+    font-size: 0.8rem;
+}
+
+.post__content p {
+    text-align: justify;
+}
+
+.post__content h3 {
+    text-align: justify;
+    margin-bottom: 20px;
 }
 
 
@@ -131,7 +160,7 @@ body > div.container-fluid > div > div.col-8 > .post > img {
     padding: 10px;
     padding-left: 30px;
     display: grid;
-    grid-template-columns: 20% 80%;
+    grid-template-columns: 22% 78%;
 }
 
 #content div:nth-child(2) {
@@ -141,4 +170,12 @@ body > div.container-fluid > div > div.col-8 > .post > img {
 #content div img {
     width: 200px;
     height: auto;
+}
+
+.category-post h2 {
+    margin-bottom: 0;
+}
+
+.category-post .entry {
+    margin-top: 10px;
 }
