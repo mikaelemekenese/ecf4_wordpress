@@ -46,6 +46,8 @@ aside {
     width: 30%;
 }
 
+/* Mise en forme des articles dans la page d'accueil (ici front-page.php) */
+
 body > div.container-fluid > div > div.col-9 > div:nth-child(1) > img {
     width: 881.53px;
     height: auto;
@@ -69,11 +71,12 @@ body > div.container-fluid > div > div.col-9 > div:nth-child(1) > p {
     left: 20px;
     text-align: justify;
     padding-right: 20px;
+    color: white;
 }
 
-.attachment-post-thumbnail {
+body > div.container-fluid > div > div.col-9 > div > img {
     width: 290px;
-    height: auto;
+    height: 193px;
 }
 
 body > div.container-fluid > div > .col-9 {
@@ -82,14 +85,57 @@ body > div.container-fluid > div > .col-9 {
     grid-template-columns: repeat(3, auto);
 }
 
-body > div.container-fluid > div > div.col-9 > div:not(:nth-child(1)) > h1  {
-    font-size: 1.5rem;
+body > div.container-fluid > div > div.col-9 > div:not(:nth-child(1))  {
+    height: 400px;
 }
 
 body > div.container-fluid > div > div.col-9 > div:not(:nth-child(1)) > h1  {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
 }
 
 body > div.container-fluid > div > div.col-9 > div:nth-child(1) > h1 {
     color: #E02148;
+}
+
+/* Mise en forme de l'article dans la page d'article (ici single.php) */
+
+body > div.container-fluid > div > div.col-8 > .post > img {
+    width: 780.25px;
+    height: auto;
+}
+
+.post-categories {
+    list-style: none;
+}
+
+.post-categories > li {
+    display: inline;
+}
+
+.post-categories > li:after {  
+    content: ", ";
+}
+
+.post-categories > li:last-child:after {
+    content: "";
+}
+
+/* Mise en forme de la page des catégories (ici archive.php) */
+
+#content > div  {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+    padding-left: 30px;
+    display: grid;
+    grid-template-columns: 20% 80%;
+}
+
+#content div:nth-child(2) {
+    margin-top: 50px;
+}
+
+#content div img {
+    width: 200px;
+    height: auto;
 }
