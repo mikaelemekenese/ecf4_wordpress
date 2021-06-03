@@ -46,10 +46,11 @@ aside {
     width: 30%;
 }
 
+
 /* Mise en forme des articles dans la page d'accueil (ici front-page.php) */
 
 body > div.container-fluid > div > div.col-9 > div:nth-child(1) > img {
-    width: 881.53px;
+    width: 100%;
     height: auto;
 }
 
@@ -97,6 +98,7 @@ body > div.container-fluid > div > div.col-9 > div:nth-child(1) > h1 {
     color: #E02148;
 }
 
+
 /* Mise en forme de l'article dans la page d'article (ici single.php) */
 
 body > div.container-fluid > div > div.col-8 > .post > img {
@@ -119,6 +121,7 @@ body > div.container-fluid > div > div.col-8 > .post > img {
 .post-categories > li:last-child:after {
     content: "";
 }
+
 
 /* Mise en forme de la page des catégories (ici archive.php) */
 

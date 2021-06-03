@@ -28,12 +28,14 @@ function custom_scripts()
 }
 add_action('wp_enqueue_scripts', 'custom_scripts');
 
+
 // Menus
 
 register_nav_menus(array(
     'main' => 'Menu Principal',
     'footer' => 'Bas de page',
 ));
+
 
 // Sidebar
 
@@ -53,6 +55,8 @@ function my_register_sidebars()
     );
     /* Repeat register_sidebar() code for additional sidebars. */
 }
+add_action('register_sidebar', 'my_register_sidebars');
+
 
 // Mettre un extrait d'un article et mettre un "Lire plus"
 

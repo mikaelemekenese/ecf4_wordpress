@@ -11,9 +11,9 @@ get_header(); ?>
       <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
           <article class="post">
 
-            <?php the_post_thumbnail(); ?>
-
-            <h1><?php the_title(); ?></h1>
+            <h1><?php the_title(); ?></h1><br>
+          
+            <?php the_post_thumbnail(); ?><br><br>
 
             <div class="post__meta">
               <?php echo get_avatar(get_the_author_meta('ID'), 40); ?>
