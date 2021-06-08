@@ -46,28 +46,36 @@ aside {
     width: 30%;
 }
 
+h1 { color: #E02148; }
+h2 { color: #F4CF21; }
+h3, h4 { color: #3a444d; }
+h5, h6 { color: #939393; }
+
+a {color: default}
+
 
 /* Mise en forme des articles dans la page d'accueil (ici front-page.php) */
 
-body > div.container-fluid > div > div.col-9 > div:nth-child(1) > img {
-    width: 100%;
-    height: auto;
-}
+/* La Une */
 
-body > div.container-fluid > div > div.col-9 > div:nth-child(1) {
+.home-main_post:nth-child(1) {
     position: relative;
     margin-bottom: 50px;
     grid-column: 1/4;
 }
 
-body > div.container-fluid > div > div.col-9 > div:nth-child(1) > h1 {
+.home-main_post:nth-child(1) > img {
+    width: 100%;
+    height: auto;
+}
+
+.home-main_post:nth-child(1) > h1 {
     position: absolute;
     top: 20px;
     left: 20px;
-    color: #E02148;
 }
 
-body > div.container-fluid > div > div.col-9 > div:nth-child(1) > p {
+.home-main_post:nth-child(1) > p {
     position: absolute;
     bottom: 10px;
     left: 20px;
@@ -76,30 +84,30 @@ body > div.container-fluid > div > div.col-9 > div:nth-child(1) > p {
     color: white;
 }
 
-body > div.container-fluid > div > div.col-9 > div > img {
+.home-main_post > img {
     width: 100%;
     height: 40%;
 }
 
-body > div.container-fluid > div > .col-9 {
+.home-main {
     width: 100%;
     display: grid;
-    grid-template-columns: calc(100% * 1/3) calc(100% * 1/3) calc(100% * 1/3);
+    grid-template-columns: repeat(3, 1fr);
     column-gap: 20px;
 }
 
-body > div.container-fluid > div > div.col-9 > div:not(:nth-child(1))  {
+.home-main_post:not(:nth-child(1)) {
     height: 420px;
 }
 
-body > div.container-fluid > div > div.col-9 > div:not(:nth-child(1)) > h1  {
+.home-main_post:not(:nth-child(1)) > h1 {
     font-size: 1.3rem;
     margin-top: 10px; 
 }
 
 /* Mise en forme de l'article dans la page d'article (ici single.php) */
 
-body > div.container-fluid > div > div.col-8 > .post > img {
+.article-main_post > img {
     width: 100%;
     height: auto;
 }
@@ -122,33 +130,49 @@ body > div.container-fluid > div > div.col-8 > .post > img {
     content: "";
 }
 
-.post__meta {
+.article-main_post__meta {
     float: right;
     text-align: justify;
     justify-items: end;
     width: 25%;
     height: auto;
     display: grid;
-    grid-template-columns: 25% 75%;
+    grid-template-columns: 1fr 3fr;
     margin-left: 50px;
     margin-bottom: 30px;
 }
 
-body > div.container-fluid > div > div.col-8 > article > div.post__meta > span:nth-child(2) > p:nth-child(4) {
+.article-main_post__meta > span:nth-child(2) > p:nth-child(4) {
     margin: 0;
 }
 
-.post__meta p {
+.article-main_post__meta p {
     font-size: 0.8rem;
 }
 
-.post__content p {
+.article-main_post__content p {
     text-align: justify;
 }
 
-.post__content h3 {
+.article-main_post__content h2,
+.article-main_post__content h3,
+.article-main_post__content h4, 
+.article-main_post__content h5,
+.article-main_post__content h6 {
     text-align: justify;
-    margin-bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.article-main_post__content ul,
+.article-main_post__content ol  {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.article-main_post__content > p > img {
+    width: 65%;
+    padding-bottom: 10px;
 }
 
 

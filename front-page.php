@@ -4,13 +4,13 @@
 
 get_header(); ?>
 
-<div class="container-fluid">
+<div class="container-fluid home">
 	<div class="row">
 
-		<div class="col-9">
+		<div class="col-9 home-main">
 			<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
-					<div class="front-page-post">
+					<div class="home-main_post">
 						<?php the_post_thumbnail(); ?>
 						<h1><?php the_title(); ?></h1>
 
@@ -21,7 +21,7 @@ get_header(); ?>
 			endif; ?>
 		</div>
 
-		<div class="col-3">
+		<div class="col-3 home_sidebar">
 			<aside class="site__sidebar">
 				<?php get_sidebar('primary'); ?>
 			</aside>
