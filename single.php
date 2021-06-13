@@ -38,7 +38,10 @@ get_header(); ?>
     </div>
 
     <div class="col-4 article-sidebar">
-
+      <aside class="site__sidebar">
+				<?php dynamic_sidebar('home-sidebar-trending'); ?><br>
+				<?php dynamic_sidebar('home-sidebar-upcoming'); ?>
+			</aside>
     </div>
   </div>
 </div>

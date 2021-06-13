@@ -23,7 +23,8 @@ get_header(); ?>
 
 		<div class="col-3 home_sidebar">
 			<aside class="site__sidebar">
-				<?php get_sidebar('primary'); ?>
+				<?php dynamic_sidebar('home-sidebar-trending'); ?><br>
+				<?php dynamic_sidebar('home-sidebar-upcoming'); ?>
 			</aside>
 		</div>
 

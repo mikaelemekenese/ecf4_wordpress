@@ -31,31 +31,39 @@ add_action('wp_enqueue_scripts', 'custom_scripts');
 
 // Menus
 
-register_nav_menus(array(
-    'main' => 'Menu Principal',
-    'footer' => 'Bas de page',
+register_nav_menus(
+    array(
+        'main'      => 'Menu Principal',
+        'footer'    => 'Bas de page',
 ));
 
 
-// Sidebar
+// Widgets
 
-function my_register_sidebars()
-{
-    /* Register the 'primary' sidebar. */
-    register_sidebar(
-        array(
-            'id'            => 'primary',
-            'name'          => __('Primary Sidebar'),
-            'description'   => __('A short description of the sidebar.'),
+function ourWidgetsInit() {
+    register_sidebar( 
+        array (
+            'id'            => 'home-sidebar-trending',
+            'name'          => 'Home - A la une',
+            'description'   => 'This is the sidebar showing the events on the home page',
             'before_widget' => '<div id="%1$s" class="widget %2$s">',
             'after_widget'  => '</div>',
             'before_title'  => '<h3 class="widget-title">',
             'after_title'   => '</h3>',
-        )
-    );
-    /* Repeat register_sidebar() code for additional sidebars. */
+    ));
+
+    register_sidebar( 
+        array (
+            'id'            => 'home-sidebar-upcoming',
+            'name'          => 'Home - A venir',
+            'description'   => 'This is the sidebar showing the events on the home page',
+            'before_widget' => '<div id="%1$s" class="widget %2$s">',
+            'after_widget'  => '</div>',
+            'before_title'  => '<h3 class="widget-title">',
+            'after_title'   => '</h3>',
+    ));
 }
-add_action('register_sidebar', 'my_register_sidebars');
+add_action('widgets_init', 'ourWidgetsInit');
 
 
 // Mettre un extrait d'un article et mettre un "Lire plus"
