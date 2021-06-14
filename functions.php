@@ -18,11 +18,12 @@ the_time('j F Y à H:i');
 // comments_number( 'no responses', 'one response', '% responses' );
 // comments_number( '0', '1', '%' );
 
-// Ajouter les fichiers CSS, JS et dépendances Bootstrap et JQuery
+// Ajouter les fichiers CSS, JS et dépendances Bootstrap, Bulma et JQuery
 
 function custom_scripts()
 {
     wp_enqueue_style('bootstrap-style', 'https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css');
+	wp_enqueue_style('bulma-style', 'https://cdn.jsdelivr.net/npm/bulma@0.9.2/css/bulma.min.css');
     wp_enqueue_script('custom-script', 'https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js', array('jquery'), false, true);
     wp_enqueue_style('custom-style', get_template_directory_uri() . '/style.css?v=' . time(), array(), false, 'all');
 }
