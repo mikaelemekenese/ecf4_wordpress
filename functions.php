@@ -62,6 +62,17 @@ function ourWidgetsInit() {
             'before_title'  => '<h3 class="widget-title">',
             'after_title'   => '</h3>',
     ));
+
+    register_sidebar( 
+        array (
+            'id'            => 'home-sidebar-popular',
+            'name'          => 'Home - Articles populaires',
+            'description'   => 'This is the sidebar showing the most popular posts on the home page',
+            'before_widget' => '<div id="%1$s" class="widget %2$s">',
+            'after_widget'  => '</div>',
+            'before_title'  => '<h3 class="widget-title">',
+            'after_title'   => '</h3>',
+    ));
 }
 add_action('widgets_init', 'ourWidgetsInit');
 
