@@ -115,9 +115,13 @@ div.col-3.home_sidebar span {
 }
 
 .home_sidebar {
+    padding-left: 0;
+	padding-right: 0;
+}
+	
+aside {
 	padding: 20px;
-    padding-left: 30px;
-    background-color: whitesmoke;
+	background-color: whitesmoke;
 }
 
 ul > li > div > a {
@@ -221,10 +225,8 @@ body > div.container-fluid.article > div > div.col-4.article-sidebar > aside > d
 }
 
 .article-sidebar {
-	padding: 20px;
     padding-left: 30px;
 	margin-top: 100px;
-	background-color: whitesmoke;
 }
 
 .article-sidebar time,
