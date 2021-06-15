@@ -219,6 +219,15 @@ ul > li > div > a {
     padding-bottom: 10px;
 }
 
+.article-main_post__content ul,
+.article-main_post__content ol {
+	margin-left: 50px;
+}
+
+.article-main_post__content ul {
+	list-style: initial;
+}
+
 body > div.container-fluid.article > div > div.col-4.article-sidebar > aside > div > div > div > header > h2 {
     color: #F4CF21;
     font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
