@@ -27,21 +27,11 @@ header {
     justify-content: flex-end;
 }
 
-.menu > li {
-    padding-left: 50px;
-}
+.menu > li { padding-left: 50px; }
+.menu > li > a { color: #E02148; }
+.admin-bar .menu { top: 32px; /* on prend en compte le décalage */ }
 
-.menu > li > a {
-    color: #E02148;
-}
-
-.admin-bar .menu {
-	top: 32px; /* on prend en compte le décalage */
-}
-
-.header img {
-    max-width: 150px;
-}
+.header img { max-width: 150px; }
 
 h1 { color: #E02148; }
 h2 { color: #F4CF21; }
@@ -94,9 +84,7 @@ a:hover { text-decoration: none; }
     column-gap: 20px;
 }
 
-.home-main_post:not(:nth-child(1)) {
-    height: 420px;
-}
+.home-main_post:not(:nth-child(1)) { height: 420px; }
 
 .home-main_post:not(:nth-child(1)) > h1 {
     font-size: 1.3rem;
@@ -162,18 +150,14 @@ ul > li > div > a {
     text-align: end;
 }
 
-.post-categories > li {
-    display: inline;
-}
+.post-categories > li { display: inline; }
 
 .post-categories > li:after {  
     content: "\a";
     white-space: pre;
 }
 
-.post-categories > li:last-child:after {
-    content: "";
-}
+.post-categories > li:last-child:after { content: ""; }
 
 .article-main_post__meta {
     float: right;
@@ -187,17 +171,9 @@ ul > li > div > a {
     margin-bottom: 30px;
 }
 
-.article-main_post__meta > span:nth-child(2) > p:nth-child(4) {
-    margin: 0;
-}
-
-.article-main_post__meta p {
-    font-size: 0.8rem;
-}
-
-.article-main_post__content p {
-    text-align: justify;
-}
+.article-main_post__meta > span:nth-child(2) > p:nth-child(4) { margin: 0; }
+.article-main_post__meta p { font-size: 0.8rem; }
+.article-main_post__content p { text-align: justify; }
 
 .article-main_post__content h2,
 .article-main_post__content h3,
@@ -225,9 +201,7 @@ ul > li > div > a {
 	margin-left: 50px;
 }
 
-.article-main_post__content ul {
-	list-style: initial;
-}
+.article-main_post__content ul { list-style: initial; }
 
 body > div.container-fluid.article > div > div.col-lg-4.article-sidebar > aside > div > div > div > header > h2 {
     color: #F4CF21;
@@ -257,22 +231,16 @@ body > div.container-fluid.article > div > div.col-lg-4.article-sidebar > aside 
     grid-template-columns: 22% 78%;
 }
 
-#content div:nth-child(2) {
-    margin-top: 50px;
-}
+#content div:nth-child(2) { margin-top: 50px; }
 
 #content div img {
     width: 200px;
     height: auto;
 }
 
-.category-post h2 {
-    margin-bottom: 0;
-}
+.category-post h2 { margin-bottom: 0; }
 
-.category-post .entry {
-    margin-top: 10px;
-}
+.category-post .entry { margin-top: 10px; }
 
 
 /* Mise en forme de la page d'évènements */
@@ -281,10 +249,7 @@ body > div.container-fluid.article > div > div.col-lg-4.article-sidebar > aside 
 	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
 }
 
-.tribe-common-l-container a {
-	color: #E02148;
-}
-
+.tribe-common-l-container a { color: #E02148; }
 .mob-icon-menu::before, .mob-menu-icon::before { color: #E02148; }
 
 
