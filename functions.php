@@ -22,8 +22,8 @@ the_time('j F Y à H:i');
 
 function custom_scripts()
 {
-    wp_enqueue_style('bootstrap-style', 'https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css');
 	wp_enqueue_style('bulma-style', 'https://cdn.jsdelivr.net/npm/bulma@0.9.2/css/bulma.min.css');
+    wp_enqueue_style('bootstrap-style', 'https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css');
     wp_enqueue_script('custom-script', 'https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js', array('jquery'), false, true);
     wp_enqueue_style('custom-style', get_template_directory_uri() . '/style.css?v=' . time(), array(), false, 'all');
 }
@@ -83,10 +83,9 @@ add_action('widgets_init', 'ourWidgetsInit');
 
 function new_excerpt_more($more) {
     global $post;
-    remove_filter('excerpt_more', 'new_excerpt_more'); 
-    return ' <a class="read_more" href="'. get_permalink($post->ID) . '">' . '<br>Read More &raquo;' . '</a>';
+    return '... <a href="' . get_permalink() . '" class="more-link" title="Read More">Read More</a>';
 }
-add_filter('excerpt_more','new_excerpt_more',11);
+add_filter('excerpt_more','new_excerpt_more');
 
 function my_excerpt_length($length) {
     return 15;

@@ -6,7 +6,7 @@ get_header(); ?>
 
 <div class="container-fluid article">
   <div class="row">
-    <div class="col-8 article-main">
+    <div class="col-12 col-lg-8 article-main">
 
       <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
           
@@ -37,7 +37,7 @@ get_header(); ?>
       <?php endwhile; endif; ?>
     </div>
 
-    <div class="col-4 article-sidebar">
+    <div class="col-12 col-lg-4 article-sidebar">
       <aside class="site__sidebar">
 				<?php dynamic_sidebar('home-sidebar-trending'); ?><br>
 			</aside>

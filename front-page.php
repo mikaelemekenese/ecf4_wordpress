@@ -7,7 +7,7 @@ get_header(); ?>
 <div class="container-fluid home">
 	<div class="row">
 
-		<div class="col-9 home-main">
+		<div class="col-12 col-lg-9 home-main">
 			<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
 					<div class="home-main_post">
@@ -21,7 +21,7 @@ get_header(); ?>
 			endif; ?>
 		</div>
 
-		<div class="col-3 home_sidebar">
+		<div class="col-12 col-lg-3 home_sidebar">
 			<aside class="site__sidebar">
 				<?php dynamic_sidebar('home-sidebar-trending'); ?><br>
 				<?php dynamic_sidebar('home-sidebar-popular'); ?>
