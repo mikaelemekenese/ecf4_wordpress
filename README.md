@@ -2,6 +2,8 @@
 <br>
 Pour cet ECF, nous avons été tenus de réaliser un template pour le journal Le Pays.
 <br><br>
+Aperçu du template déployé : <a href="http://mikaele.devweb.cfa.nc/">mikaele.devweb.cfa.nc</a>
+<br><br>
 <h2>Cahier des Charges - Besoins fonctionnels</h2>
 <br>
 Le commanditaire, Monsieur Do, le propriétaire du journal Le Pays, a exprimé les besoins suivants :
@@ -25,8 +27,7 @@ Le commanditaire, Monsieur Do, le propriétaire du journal Le Pays, a exprimé l
 4. Installation du template<br>
 5. Déploiement sur un serveur en ligne
 
-<br><br>
-Aperçu du template déployé : <a href="http://mikaele.devweb.cfa.nc/">mikaele.devweb.cfa.nc</a>
+
 <br><br>
 
 <h2>Manuel d'installation</h2>
