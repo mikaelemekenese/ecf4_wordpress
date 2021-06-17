@@ -26,7 +26,8 @@ Le commanditaire, Monsieur Do, le propriétaire du journal Le Pays, a exprimé l
     - Création du menu et ajout des widgets à mettre dans la sitebar directement sur Wordpress<br>
     - Mise en forme du site (mise en page ainsi que le rendu mobile) depuis le fichier style.css<br><br>
 4. Installation du template<br>
-5. Déploiement sur un serveur en ligne
+5. Pour sécuriser mon Wordpress, j'ai installé le plugin WPS Hide Login pour masquer la zone de connexion à la page administrateur puis ajouté des fonctions permettant de cacher la version de Wordpress ainsi que les erreurs de connexion
+6. Déploiement sur un serveur en ligne
 
 
 <br><br>
