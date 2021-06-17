@@ -1,8 +1,8 @@
 <h1>ECF 4 - Le Pays</h1>
 <br>
-Pour cet ECF, nous avons été tenus de réaliser un template pour le journal Le Pays.
+Pour cet ECF, nous avons été tenus de réaliser un site pour le journal Le Pays.
 <br><br>
-Aperçu du template déployé : <a href="http://mikaele.devweb.cfa.nc/">mikaele.devweb.cfa.nc</a>
+Aperçu du site déployé : <a href="http://mikaele.devweb.cfa.nc/">mikaele.devweb.cfa.nc</a>
 <br><br>
 <h2>Cahier des Charges - Besoins fonctionnels</h2>
 <br>
