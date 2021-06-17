@@ -4,7 +4,7 @@ Pour cet ECF, nous avons été tenus de réaliser un template pour le journal Le
 <br><br>
 
 <h2>Manuel d'installation</h2>
-
+<br>
 Pour installer ce thème, nous aurons besoin de quatre plugins Wordpress :
 - FakerPress : Pour générer des faux articles
 - The Events Calendar : Pour la création de faux évènements
@@ -13,8 +13,8 @@ Pour installer ce thème, nous aurons besoin de quatre plugins Wordpress :
 <br>
 
 <h2>Besoins fonctionnels</h2>
-
-<h3>Le journal local Le Pays et a exprimé les besoins suivants :</h3>
+<br>
+Le journal local Le Pays et a exprimé les besoins suivants :
 
 - La **création d'un site internet** :  Ce dernier devra être aussi "agréable" visuellement et à la lecture que la version papier.
 
