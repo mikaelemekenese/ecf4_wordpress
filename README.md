@@ -1,7 +1,7 @@
 <h1>ECF 4 - Le Pays</h1>
 
 Pour cet ECF, nous avons été tenus de réaliser un template pour le journal Le Pays.
-
+<br>
 
 <h2>Manuel d'installation</h2>
 
@@ -10,7 +10,7 @@ Pour installer ce thème, nous aurons besoin de quatre plugins Wordpress :
 - The Events Calendar : Pour la création de faux évènements
 - Wordpress Popular Posts : Pour faire apparaître les articles les plus consultés du site
 - Mobile Menu : Que j'ai utilisé pour créer le menu hamburger de l'interface mobile du site
-
+<br>
 
 <h2>Besoins fonctionnels</h2>
 
