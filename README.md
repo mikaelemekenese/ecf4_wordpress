@@ -35,13 +35,13 @@ Le commanditaire, Monsieur Do, le propriétaire du journal Le Pays, a exprimé l
 <h2>Manuel d'installation</h2>
 <br>
 Pour installer le template sur votre machine, il vous faudra :<br>
-- Télécharger les fichiers du thème (ils sont tous regroupés dans le dossier mikaele-cms-template.zip)<br>
-- Sur la page administrateur (votresite/wp-admin par défaut) de votre site Wordpress : allez sur Apparence > Thèmes > Ajouter > Téléverser un thème et enfin, activez-le.
+    - Télécharger les fichiers du thème (ils sont tous regroupés dans le dossier mikaele-cms-template.zip)<br>
+    - Sur la page administrateur (votresite/wp-admin par défaut) de votre site Wordpress : allez sur Apparence > Thèmes > Ajouter > Téléverser un thème et enfin, activez-le.
 <br><br>
 Vous aurez besoin de quatre plugins Wordpress :
 <br><br>
-- FakerPress : Pour générer les faux articles<br>
-- The Events Calendar : Pour la création des faux évènements à faire apparaître dans la sidebar<br>
-- Wordpress Popular Posts : Pour faire apparaître les articles les plus consultés du site<br>
-- Mobile Menu : Que j'ai utilisé pour créer le menu hamburger de l'interface mobile du site
+    - FakerPress : Pour générer les faux articles<br>
+    - The Events Calendar : Pour la création des faux évènements à faire apparaître dans la sidebar<br>
+    - Wordpress Popular Posts : Pour faire apparaître les articles les plus consultés du site<br>
+    - Mobile Menu : Que j'ai utilisé pour créer le menu hamburger de l'interface mobile du site
 <br>
