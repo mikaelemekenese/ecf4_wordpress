@@ -1,6 +1,6 @@
-#Le Pays
+<h1>Le Pays</h1>
 
-###Le journal local Le Pays et a exprimé les besoins suivants :
+<h3>Le journal local Le Pays et a exprimé les besoins suivants :</h3>
 
 - La **création d'un site internet** :  Ce dernier devra être aussi "agréable" visuellement et à la lecture que la version papier.
 
