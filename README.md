@@ -36,9 +36,9 @@ Pour installer le template sur votre machine, il vous faudra :<br>
 - Sur votre page administrateur (votresite/wp-admin par défaut) de votre site Wordpress : allez sur Apparence > Thèmes > Ajouter > Téléverser un thème et enfin, activez-le.
 <br><br>
 Vous aurez besoin de quatre plugins Wordpress :
-<br>
-- FakerPress : Pour générer les faux articles
-- The Events Calendar : Pour la création des faux évènements à faire apparaître dans la sidebar
-- Wordpress Popular Posts : Pour faire apparaître les articles les plus consultés du site
+<br><br>
+- FakerPress : Pour générer les faux articles<br>
+- The Events Calendar : Pour la création des faux évènements à faire apparaître dans la sidebar<br>
+- Wordpress Popular Posts : Pour faire apparaître les articles les plus consultés du site<br>
 - Mobile Menu : Que j'ai utilisé pour créer le menu hamburger de l'interface mobile du site
 <br>
