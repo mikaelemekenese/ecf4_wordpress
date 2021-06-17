@@ -1,7 +1,7 @@
 <h1>ECF 4 - Le Pays</h1>
 
 Pour cet ECF, nous avons été tenus de réaliser un template pour le journal Le Pays.
-<br>
+<br><br>
 
 <h2>Manuel d'installation</h2>
 
