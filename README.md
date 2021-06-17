@@ -1,7 +1,7 @@
 <h1>ECF 4 - Le Pays</h1>
-
-Pour cet ECF, nous avons été tenus de réaliser un template pour le journal Le Pays.
 <br>
+Pour cet ECF, nous avons été tenus de réaliser un template pour le journal Le Pays.
+<br><br>
 <h2>Cahier des Charges - Besoins fonctionnels</h2>
 <br>
 Le commanditaire, Monsieur Do, le propriétaire du journal Le Pays, a exprimé les besoins suivants :
