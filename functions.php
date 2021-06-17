@@ -100,3 +100,11 @@
         return $excerpt;
     }
     add_filter("the_excerpt", "trim_custom_excerpt", 999);
+
+    // Masquer la version de Wordpress
+
+    remove_action("wp_head", "wp_generator");
+
+    // Cacher les erreurs de connexion
+
+    add_filter('login_errors',create_function('$a', "return null;"));
