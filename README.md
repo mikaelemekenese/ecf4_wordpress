@@ -21,7 +21,7 @@ Le commanditaire, Monsieur Do, le propriétaire du journal Le Pays, a exprimé l
 1. Elaboration du cahier des charges qui détaille les besoins fonctionnels du client<br>
 2. Conception des maquettes (wireframes) à l'aide du logiciel Pencil<br>
 3. Création du template du CMS sur Visual Studio Code et la page admin de Wordpress :<br><br>
-    - Création des fichiers qui composeront chaque partie de votre template : front-page.php (accueil), single.php (articles), archive.php (catégories), header.php et footer.php pour les hauts et bas de <br>
+    - Création des fichiers qui composeront chaque partie de votre template : front-page.php (accueil), single.php (articles), archive.php (catégories), header.php et footer.php pour le header et le bas de page<br>
     - Sur le fichier functions.php, on y détaille toutes les fonctionnalités que l'on veut faire apparaître sur le site (menu, sidebar) et ce que l'on souhaite configurer sur le site (ex : on veut afficher un extrait d'un article sur la page au lieu de tout le contenu)<br>
     - Création du menu et ajout des widgets à mettre dans la sitebar directement sur Wordpress<br>
     - Mise en forme du site (mise en page ainsi que le rendu mobile) depuis le fichier style.css<br><br>
