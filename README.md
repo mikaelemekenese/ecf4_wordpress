@@ -34,7 +34,7 @@ Le commanditaire, Monsieur Do, le propriétaire du journal Le Pays, a exprimé l
 <h2>Manuel d'installation</h2>
 <br>
 Pour installer le template sur votre machine, il vous faudra :<br>
-- Télécharger les fichiers du thème (ils sont tous regroupés dans le dossier .zip)<br>
+- Télécharger les fichiers du thème (ils sont tous regroupés dans le dossier mikaele-cms-template.zip)<br>
 - Sur la page administrateur (votresite/wp-admin par défaut) de votre site Wordpress : allez sur Apparence > Thèmes > Ajouter > Téléverser un thème et enfin, activez-le.
 <br><br>
 Vous aurez besoin de quatre plugins Wordpress :
