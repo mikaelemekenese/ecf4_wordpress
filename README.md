@@ -31,12 +31,12 @@ Aperçu du template déployé : <a href="http://mikaele.devweb.cfa.nc/">mikaele.
 
 <h2>Manuel d'installation</h2>
 <br>
-Pour installer le template sur votre machine, il vous faudra :
-- Télécharger les fichiers du thème (ils sont tous regroupés dans le dossier .zip)
+Pour installer le template sur votre machine, il vous faudra :<br>
+- Télécharger les fichiers du thème (ils sont tous regroupés dans le dossier .zip)<br>
 - Sur votre page administrateur (votresite/wp-admin par défaut) de votre site Wordpress : allez sur Apparence > Thèmes > Ajouter > Téléverser un thème et enfin, activez-le.
-<br>
+<br><br>
 Vous aurez besoin de quatre plugins Wordpress :
-
+<br>
 - FakerPress : Pour générer les faux articles
 - The Events Calendar : Pour la création des faux évènements à faire apparaître dans la sidebar
 - Wordpress Popular Posts : Pour faire apparaître les articles les plus consultés du site
