@@ -2,7 +2,7 @@
 
 Pour cet ECF, nous avons été tenus de réaliser un template pour le journal Le Pays.
 <br><br>
-Aperçu : <a href="http://mikaele.devweb.cfa.nc/">
+Aperçu : <a href="http://mikaele.devweb.cfa.nc/"></a>
 <br><br>
 
 <h2>Manuel d'installation</h2>
