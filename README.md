@@ -8,7 +8,7 @@ Aperçu : <a href="http://mikaele.devweb.cfa.nc/">mikaele.devweb.cfa.nc</a>
 <h2>Manuel d'installation</h2>
 <br>
 Pour installer ce thème, nous aurons besoin de quatre plugins Wordpress :
-
+<br>
 - FakerPress : Pour générer des faux articles
 - The Events Calendar : Pour la création de faux évènements
 - Wordpress Popular Posts : Pour faire apparaître les articles les plus consultés du site
@@ -18,7 +18,7 @@ Pour installer ce thème, nous aurons besoin de quatre plugins Wordpress :
 <h2>Cahier des Charges - Besoins fonctionnels</h2>
 <br>
 Le commanditaire, Monsieur Do, le propriétaire du journal Le Pays, a exprimé les besoins suivants :
-
+<br>
 - La **création d'un site internet** :  Ce dernier devra être aussi "agréable" visuellement et à la lecture que la version papier.
 - La première page du site devra mettre en avant les derniers *articles*. On y mettra les 5 ou 10 derniers chronologiquement du plus récent au plus ancien. Les articles devront être *facilement visibles et consultables* par les utilisateurs.
 - Les utilisateurs auront la possibilité de voir les **évènements culturels et sportifs à venir** dans une barre latérale à droite de la page.
