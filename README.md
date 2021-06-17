@@ -15,9 +15,9 @@ Pour installer ce thème, nous aurons besoin de quatre plugins Wordpress :
 - Mobile Menu : Que j'ai utilisé pour créer le menu hamburger de l'interface mobile du site
 <br>
 
-<h2>Besoins fonctionnels</h2>
+<h2>Cahier des Charges - Besoins fonctionnels</h2>
 <br>
-Le journal local Le Pays et a exprimé les besoins suivants :
+Le commanditaire, Monsieur Do, le propriétaire du journal Le Pays, a exprimé les besoins suivants :
 
 - La **création d'un site internet** :  Ce dernier devra être aussi "agréable" visuellement et à la lecture que la version papier.
 - La première page du site devra mettre en avant les derniers *articles*. On y mettra les 5 ou 10 derniers chronologiquement du plus récent au plus ancien. Les articles devront être *facilement visibles et consultables* par les utilisateurs.
