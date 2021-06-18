@@ -12,4 +12,4 @@
 
 - Enfin, le site se devra d'être **responsive**, optimisé pour les écrans mobiles.
 <br>
-L'objectif sera de permettre aux lecteurs du journal d'accéder à l'information directement en ligne depuis leur ordinateur ou leurs appareils mobiles, mais également d'attirer de nouveaux lecteurs.
+L'objectif sera de permettre aux lecteurs du journal d'accéder à l'information directement en ligne depuis leur ordinateur ou leurs appareils mobiles, mais également d'attirer de potentiels nouveaux lecteurs.
