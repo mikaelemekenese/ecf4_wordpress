@@ -32,7 +32,7 @@ Le commanditaire, Monsieur Do, le propriétaire du journal Le Pays, a exprimé l
 
 * J'ai changé le préfixe de table dans le fichier wp-config<br>
 * J'ai installé le plugin WPS Hide Login pour masquer la zone de connexion à la page administrateur<br>
-* J'ai ajouté des fonctions permettant de cacher la version de Wordpress ainsi que les erreurs de connexion<br><br>
+* J'ai ajouté des fonctions permettant de cacher la version de Wordpress ainsi que les erreurs de connexion<br>
 
 6. Déploiement sur un serveur en ligne
 <br>
