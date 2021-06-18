@@ -4,7 +4,7 @@ Pour cet ECF, nous avons été tenus de réaliser un site pour le journal Le Pay
 <br><br>
 Aperçu du site déployé : <a href="http://mikaele.devweb.cfa.nc/">mikaele.devweb.cfa.nc</a>
 <br><br>
-<h2>Cahier des Charges - Besoins fonctionnels</h2>
+<h2>Besoins fonctionnels</h2>
 <br>
 Le commanditaire, Monsieur Do, le propriétaire du journal Le Pays, a exprimé les besoins suivants :
 
