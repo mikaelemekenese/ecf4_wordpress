@@ -79,6 +79,10 @@ a:hover { text-decoration: none; }
     left: 20px;
 }
 
+.home-main_post:nth-child(1) > h6 {
+	display: none;
+}
+
 .home-main_post:nth-child(1) > p {
     position: absolute;
     bottom: 10px;
@@ -101,7 +105,11 @@ a:hover { text-decoration: none; }
 }
 
 .home-main_post:not(:nth-child(1)) {
-    height: 420px;
+    height: 450px;
+}
+
+.home-main_post:not(:nth-child(1)) > p {
+    margin-bottom: 0;
 }
 
 .home-main_post:not(:nth-child(1)) > h1 {
@@ -113,6 +121,14 @@ div.col-lg-3.home_sidebar h2 {
     color: #F4CF21;
 	font-weight: normal;
     font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+
+.widget-title {
+	color: #F4CF21;
+    font-size: 1rem;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-weight: normal;
+    margin-top: 25px;
 }
 
 div.col-lg-3.home_sidebar time, 
@@ -418,7 +434,6 @@ body > div.container-fluid.article > div > div.col-lg-4.article-sidebar > aside 
 	body { font-size: 0.95rem; }
 	.h1, h1 { font-size: 2.0rem; }
 	.h2, h2 { font-size: 1.7rem; }
-	.home-main_post:not(:nth-child(1)) { height: 370px; }
 	.entry { font-size: 0.9rem; }
 	#content div img { width: 165px; }
 	.category-post > span > h2 { font-size: 1.4rem; }
@@ -455,7 +470,6 @@ body > div.container-fluid.article > div > div.col-lg-4.article-sidebar > aside 
 	.category-post > span > h2 { font-size: 1.3rem; }
 	.article-main_post__meta { width: 35%; }
 }
-
 
 @media screen and (max-width: 450px)
 {

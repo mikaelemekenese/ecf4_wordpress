@@ -13,8 +13,11 @@ get_header(); ?>
 					<div class="home-main_post">
 						<?php the_post_thumbnail(); ?>
 						<h1><?php the_title(); ?></h1>
-
+						<h6 style="font-size:0.7rem;color:#939393">
+							<?php the_time(get_option('date_format')); ?>
+						</h6>
 						<?php the_excerpt(); ?>
+						<a href="<?php the_permalink(); ?>" class="post__link">Read more &raquo;</a>
 					</div>
 
 			<?php endwhile;
@@ -24,7 +27,8 @@ get_header(); ?>
 		<div class="col-12 col-lg-3 home_sidebar">
 			<aside class="site__sidebar">
 				<?php dynamic_sidebar('home-sidebar-trending'); ?><br>
-				<?php dynamic_sidebar('home-sidebar-popular'); ?>
+				<?php dynamic_sidebar('home-sidebar-popular'); ?><br>
+				<?php dynamic_sidebar('home-sidebar-tags'); ?>
 			</aside>
 		</div>
 

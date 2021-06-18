@@ -55,9 +55,9 @@
 
         register_sidebar( 
             array (
-                'id'            => 'home-sidebar-upcoming',
-                'name'          => 'Home - A venir',
-                'description'   => 'This is the sidebar showing the events on the home page',
+                'id'            => 'home-sidebar-popular',
+                'name'          => 'Home - Articles populaires',
+                'description'   => 'This is the sidebar showing the most popular posts on the home page',
                 'before_widget' => '<div id="%1$s" class="widget %2$s">',
                 'after_widget'  => '</div>',
                 'before_title'  => '<h3 class="widget-title">',
@@ -66,9 +66,9 @@
 
         register_sidebar( 
             array (
-                'id'            => 'home-sidebar-popular',
-                'name'          => 'Home - Articles populaires',
-                'description'   => 'This is the sidebar showing the most popular posts on the home page',
+                'id'            => 'home-sidebar-tags',
+                'name'          => 'Etiquettes',
+                'description'   => 'This is the sidebar showing the tags on the home page',
                 'before_widget' => '<div id="%1$s" class="widget %2$s">',
                 'after_widget'  => '</div>',
                 'before_title'  => '<h3 class="widget-title">',
