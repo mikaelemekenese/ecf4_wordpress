@@ -1,6 +1,6 @@
 <h1>Le Pays</h1>
 
-<h3>Le journal local Le Pays et a exprimé les besoins suivants :</h3>
+<h3>Le commenditaire du projet, M. Do, le propriétaire du journal local Le Pays, a exprimé les besoins suivants :</h3>
 
 - La **création d'un site internet** :  Ce dernier devra être aussi "agréable" visuellement et à la lecture que la version papier.
 
@@ -11,3 +11,5 @@
 - Comme sur le journal papier, la première page du site comportera une **une** (bien visible, en grand).
 
 - Enfin, le site se devra d'être **responsive**, optimisé pour les écrans mobiles.
+
+L'objectif sera de permettre aux lecteurs du journal d'accéder à l'information directement en ligne depuis leur ordinateur ou leurs appareils mobiles, mais également d'attirer de nouveaux lecteurs.
